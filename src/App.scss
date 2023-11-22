@@ -138,6 +138,7 @@ main {
             .card {
                 text-align: center;
                 background-color: transparent;
+                padding-right: 0;
             }
             h1 {
                 color: $green;
@@ -163,6 +164,8 @@ main {
                     padding: 14px 27px;
                     position: relative;
                     width: 100%;
+                    right: 0;
+                    top: 0;
                     &:hover {
                         background: #b3ffe2;
                         box-shadow: 0px 25px 20px -20px rgba(84, 230, 175, 0.5);
@@ -171,14 +174,13 @@ main {
             }
             .plataforms {
                 display: flex;
-                gap: 20px;
-                align-items: center;
                 justify-content: space-between;
-                box-sizing: border-box;
+                align-items: center;
+                gap: 10px;
+            }
+            .image {
                 img {
-                    transform: scale(0.5);
                     width: 100%;
-                    height: auto;
                 }
             }
         }
