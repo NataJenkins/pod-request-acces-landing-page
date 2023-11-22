@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Chivo:wght@400;900&display=swap");
+
+$green: hsla(157, 74%, 62%, 1);
+$dark-gray: hsla(225, 26%, 23%, 1);
+$light-gray: hsla(225, 40%, 83%, 1);
+$gray: hsla(225, 21%, 45%, 1);
+$white: hsla(0, 0%, 100%, 1);
+$dark-blue: hsla(224, 35%, 11%, 1);
+
+*,
+body {
+    margin: 0;
+    font-family: "Chivo", sans-serif;
+}
