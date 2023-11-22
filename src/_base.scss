@@ -7,8 +7,15 @@ $gray: hsla(225, 21%, 45%, 1);
 $white: hsla(0, 0%, 100%, 1);
 $dark-blue: hsla(224, 35%, 11%, 1);
 
+$bp-tablet: 1200px;
+$bp-mobile: 650px;
 *,
 body {
     margin: 0;
     font-family: "Chivo", sans-serif;
+}
+body {
+    background-color: $dark-blue;
+    min-height: 100vh;
+    min-width: 100vw;
 }
